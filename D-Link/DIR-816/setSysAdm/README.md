@@ -13,7 +13,7 @@ Below is the latest firmware
 
 ## Vulnerability details
 
-Vulnerability occurs in /goform/sysSetadm.    The contents of the admuser and admpass parameters are executed as commands
+Vulnerability occurs in /goform/setSysAdm.    The contents of the admuser and admpass parameters are executed as commands
 
 ![](img/2.png#center)
 
