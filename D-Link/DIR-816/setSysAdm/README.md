@@ -13,7 +13,7 @@ Below is the latest firmware
 
 ## Vulnerability details
 
-Vulnerability occurs in /goform/form2WizardStep54.cgi.    The contents obtained by the wizardstep54_pskpwd parameter are passed to V8, and then the contents matched by V8 are decoded and put into the V14 stack without size checking, resulting in a stack overflow.
+Vulnerability occurs in /goform/sysSetadm.    The contents of the admuser and admpass parameters are executed as commands
 
 ![](img/2.png#center)
 
