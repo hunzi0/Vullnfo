@@ -42,7 +42,6 @@ data = {
     'tokenid': tokenid,
     'method': '4',
     'pskValue': payload
-
 }
 
 r = requests.post(url, data)
