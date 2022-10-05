@@ -50,4 +50,5 @@ hunzi = r.text
 print(hunzi)
 ```
 
-You can see the router crash
+You can see the router crash, and finally you can write an exp to get a shell.
+
