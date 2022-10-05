@@ -13,7 +13,7 @@ Below is the latest firmware
 
 ## Vulnerability details
 
-Vulnerability occurs in /goform/form2WlanBasicSetup.cgi and /goform/form2Wl5BasicSetup.cgi.  With the setSecurity function,the contents obtained by the wizardstep4_pskpwd parameter are passed to V9, and then the contents matched by V9 are decoded and put into the V17 stack without size checking, resulting in a stack overflow.
+Vulnerability occurs in /goform/form2WlanBasicSetup.cgi and /goform/form2Wl5BasicSetup.cgi.  With the setSecurity function,the contents obtained by the pskValue parameter are passed to V9, and then the contents matched by V9 are decoded and put into the V17 stack without size checking, resulting in a stack overflow.
 
 ![](img/2.png#center)
 
