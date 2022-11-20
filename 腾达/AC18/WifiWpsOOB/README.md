@@ -33,7 +33,7 @@ data = {
     'index': 'a' * 10000
 }
 
-r = requests.post(url=url, headers=headers, data=data, proxies=proxies)
+r = requests.post(url=url, headers=headers, data=data)
 hunzi = r.text
 print(hunzi)
 ```
