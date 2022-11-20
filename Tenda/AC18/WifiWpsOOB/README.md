@@ -17,6 +17,7 @@ Vulnerability occurs in /goform/WifiWpsOOB.   The contents obtained by the index
 ![](img/2.png#center)
 <hr/>
 ![](img/3.png#center)
+
 ## POC
 
 Run poc
