@@ -13,7 +13,7 @@ Below is the latest firmware
 
 ## Vulnerability details
 
-Vulnerability occurs in /goform/addWifiMacFilter.        The contents obtained by the deviceMac parameter are passed to v11, and then the contents matched by v11  and put into the s without size checking, resulting in a stack overflow.
+Vulnerability occurs in /goform/addWifiMacFilter.        The contents obtained by the deviceMac parameter are passed to v11, and then the contents matched by v11  and put into the nptr without size checking, resulting in a stack overflow.
 
 ![](img/2.png#center)
 
