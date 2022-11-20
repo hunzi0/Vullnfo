@@ -16,8 +16,8 @@ Below is the latest firmware
 Vulnerability occurs in /goform/WifiWpsOOB.   The contents obtained by the index parameter are passed to nptr, and then the contents matched by nptr  and put into the s without size checking, resulting in a stack overflow.
 ![](img/2.png#center)
 <hr/>
-![](img/3.png#center)
 
+![](img/3.png#center)
 ## POC
 
 Run poc
